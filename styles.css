@@ -1,0 +1,47 @@
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    height: 100vh;
+    width: 100vh;
+    padding-top: 15vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    z-index: 2;
+}
+
+.form-group {
+    padding: 8px;
+}
+
+.button {
+    padding-top: 50px;
+}
+
+[class="form mx-auto border p-3 w-50"] {
+    background-color: #253c55;
+    border-radius: 12px;
+    color: white;
+}
+
+
+/* #login {
+    background-color: #253c55;
+    border-radius: 12px;
+    color: white;
+} */
+
+[class="btn btn-primary mt-2"] {
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+.header {
+    text-align: center;
+}
